@@ -1,8 +1,8 @@
 sources:
   - name: 自由节点1
-    url: "https://raw.githubusercontent.com/ripaeod/clash/main/clash.yaml"   # 注意：你写成了 ripaeod
+    url: "https://raw.githubusercontent.com/ripaod/clash/main/clash.yaml"   # 注意：你写成了 ripaeod
     enabled: true
 
   - name: 自由节点2
-    url: "https://raw.githubusercontent.com/barry-fer/V2ray-Configs/main/All_Configs_Sub.txt"   # 注意：你写成了 barry-fer
+    url: "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt"   # 注意：你写成了 barry-fer
     enabled: true
