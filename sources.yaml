@@ -1,7 +1,8 @@
-# 只放公开、允许再分发/聚合的订阅源。
-# 不要把私人订阅、带 Token 的订阅或账号密码提交到公开仓库。
 sources:
-  # 示例：
-  # - name: example
-  #   url: "https://example.com/clash.yaml"
-  #   enabled: true
+  - name: 自由节点1
+    url: "https://raw.githubusercontent.com/ripaeod/clash/main/clash.yaml"   # 注意：你写成了 ripaeod
+    enabled: true
+
+  - name: 自由节点2
+    url: "https://raw.githubusercontent.com/barry-fer/V2ray-Configs/main/All_Configs_Sub.txt"   # 注意：你写成了 barry-fer
+    enabled: true
