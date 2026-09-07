@@ -1,7 +1,11 @@
-# 只放公开、允许再分发/聚合的订阅源。
-# 不要把私人订阅、带 Token 的订阅或账号密码提交到公开仓库。
+# 只给公开、允许再分发/聚合的订阅源。
+# 不要把私人订阅、带Token的订阅源账号密码提交到公开仓库。
+
 sources:
-  # 示例：
-  # - name: example
-  #   url: "https://example.com/clash.yaml"
-  #   enabled: true
+  - name: source-1
+    url: "https://raw.githubusercontent.com/you/your-sub/main/clash.yaml"
+    enabled: true
+
+  - name: source-2
+    url: "https://example.com/subscription"
+    enabled: true
