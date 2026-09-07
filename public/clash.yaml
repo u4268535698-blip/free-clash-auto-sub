@@ -1,0 +1,21 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies: []
+proxy-groups:
+  - name: 自动选择
+    type: url-test
+    proxies: []
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 手动选择
+    type: select
+    proxies:
+      - 自动选择
+      - DIRECT
+rules:
+  - GEOSITE,CN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,自动选择
