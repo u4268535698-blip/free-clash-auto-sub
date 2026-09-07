@@ -1,11 +1,8 @@
-# 只给公开、允许再分发/聚合的订阅源。
-# 不要把私人订阅、带Token的订阅源账号密码提交到公开仓库。
-
 sources:
-  - name: source-1
-    url: "https://raw.githubusercontent.com/you/your-sub/main/clash.yaml"
+  - name: free-node-1
+    url: "https://raw.githubusercontent.com/ripaod/clash/main/clash.yaml"
     enabled: true
 
-  - name: source-2
-    url: "https://example.com/subscription"
+  - name: free-node-2
+    url: "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt"
     enabled: true
