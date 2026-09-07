@@ -1,8 +1,0 @@
-sources:
-  - name: free-node-1
-    url: "https://raw.githubusercontent.com/ripaod/clash/main/clash.yaml"
-    enabled: true
-
-  - name: free-node-2
-    url: "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt"
-    enabled: true
